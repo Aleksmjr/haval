@@ -1,0 +1,11 @@
+{
+  "name": "haval",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "live-server src --port=3000 --open=src/index.html --quiet"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
