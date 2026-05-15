@@ -5,6 +5,9 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 
+# obus
+script.js
+
 # OS
 .DS_Store
 Thumbs.db
