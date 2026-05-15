@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Haval Черная пятница</title>
+
+  <link rel="icon" href="data:,">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+     <div class="container">
+       <div class="header__top">
+        <div class="header__brand-group">
+          <a class="header__brand" href="#">
+            <img src="images/logo1.png" alt="Haval">
+          </a>
+          <hr class="header__line"/>
+          <a class="header__subbrand" href="#">
+            <img src="images/logo2.png.svg" alt="АвтоСпецЦентр">
+          </a>
+        </div>
+         <div class="header__contact-item header__contact-item--phone">
+            <img src="images/tel.svg" alt="" class="header__contact-icon">
+            <a href="tel:+74957559990">+7 (495) 755 99 90</a>
+          </div>
+
+        <div class="header__contacts">
+         
+          <div class="header__contact-item header__contact-item--address">
+            <img src="images/div.top_addr.svg" alt="" class="header__contact-icon">
+            <div>
+              <span>МО, г. Химки, Ленинградское ш., вл.14 стр.1</span>
+            <span>Часы работы с 09:00 до 21:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="header__bottom">
+        <nav class="header-nav header-nav--primary" aria-label="Модели">
+          <ul class="header-nav__list">
+            <li class="header-nav__item header-nav__item--active"><a href="#">M6</a></li>
+            <li class="header-nav__item"><a href="#">DARGO X</a></li>
+            <li class="header-nav__item"><a href="#">DARGO</a></li>
+            <li class="header-nav__item"><a href="#">JOLION</a></li>
+            <li class="header-nav__item"><a href="#">F7x</a></li>
+            <li class="header-nav__item"><a href="#">F7</a></li>
+            <li class="header-nav__item"><a href="#">H9</a></li>
+            <li class="header-nav__item"><a href="#">GWM Poer</a></li>
+            <li class="header-nav__item"><a href="#">GWM Poer KINGKONG</a></li>
+          </ul>
+        </nav>
+
+        <nav class="header-nav header-nav--secondary" aria-label="Дополнительно">
+          <ul class="header-nav__list header-nav__list--secondary">
+            <li class="header-nav__item"><a href="#">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a></li>
+            <li class="header-nav__item"><a href="#">ТЕСТ-ДРАЙВ</a></li>
+            <li class="header-nav__item"><a href="#">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+      </div>
+     </div>
+
+     
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__bg">
+          <img src="images/фон.png" alt="Автомобили Haval" class="hero__bg-image">
+        </div>
+        <div class="container hero--container" style="position: relative;">
+          <div class="hero__content">
+          <h1 class="hero__title">Увеличиваем выгоды на HAVAL</h1>
+          <h2 class="hero__subtitle">в Химках к Чёрной пятнице!</h2>
+        </div>
+        <a class="button button--accent hero__button" data-fancybox href="#popup-form">ЗАФИКСИРОВАТЬ УСЛОВИЯ</a>
+        </div>
+      </section>
+
+      <section class="timer">
+        <div class="container timer__content">
+          <div class="timer--group">
+            <div class="timer__label">Оставьте заявку и зафиксируйте условия</div>
+            <div class="timer__display">
+              <div class="timer__circle timer__circle--brand">
+                <svg class="timer__svg" viewBox="0 0 100 100">
+                  <circle class="timer__bg" cx="50" cy="50" r="45"></circle>
+                  <circle class="timer__progress" cx="50" cy="50" r="45" data-type="days"></circle>
+                </svg>
+                <div class="timer__text">
+                  <span class="timer__number" data-timer="days">8</span>
+                  <small>дней</small>
+                </div>
+              </div>
+              <span class="timer__sep">:</span>
+              <div class="timer__circle">
+                <svg class="timer__svg" viewBox="0 0 100 100">
+                  <circle class="timer__bg" cx="50" cy="50" r="45"></circle>
+                  <circle class="timer__progress" cx="50" cy="50" r="45" data-type="hours"></circle>
+                </svg>
+                <div class="timer__text">
+                  <span class="timer__number" data-timer="hours">8</span>
+                  <small>часов</small>
+                </div>
+              </div>
+              <span class="timer__sep">:</span>
+              <div class="timer__circle">
+                <svg class="timer__svg" viewBox="0 0 100 100">
+                  <circle class="timer__bg" cx="50" cy="50" r="45"></circle>
+                  <circle class="timer__progress" cx="50" cy="50" r="45" data-type="minutes"></circle>
+                </svg>
+                <div class="timer__text">
+                  <span class="timer__number" data-timer="minutes">56</span>
+                  <small>минут</small>
+                </div>
+              </div>
+              <span class="timer__sep">:</span>
+              <div class="timer__circle timer__circle--brand">
+                <svg class="timer__svg" viewBox="0 0 100 100">
+                  <circle class="timer__bg" cx="50" cy="50" r="45"></circle>
+                  <circle class="timer__progress" cx="50" cy="50" r="45" data-type="seconds"></circle>
+                </svg>
+                <div class="timer__text">
+                  <span class="timer__number" data-timer="seconds">28</span>
+                  <small>секунд</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="button button--accent timer__button" data-fancybox href="#popup-form">Зафиксировать условия</a>
+        </div>
+      </section>
+
+      <section class="models">
+        <div class="container">
+          <div class="models__grid">
+            <article class="card">
+              <div class="card__header">
+                <span class="card__badge">В наличии 21 автомобиль</span>
+              </div>
+
+              <h2 class="card__title">Haval M6</h2>
+              <p class="card__price">Выгода до <strong>410&nbsp;000 ₽</strong></p>
+
+              <div class="card__image-wrapper">
+                <div class="swiper card__swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/серый-неметаллик.png" alt="Haval M6"></div>
+                    <div class="swiper-slide"><img src="images/черный-неметаллик.png" alt="Haval M6"></div>
+                    <div class="swiper-slide"><img src="images/белый-неметаллик.png" alt="Haval M6"></div>
+                  </div>
+                </div>
+                <div class="card__side-note">
+                  <img src="images/tel.svg" alt="" class="card__side-icon">
+                  <span>Записаться<br>на тест-драйв</span>
+                </div>
+              </div>
+
+              <div class="card__colors">
+                <span class="card__color card__color--active" data-color-index="0" style="background: #808080;"></span>
+                <span class="card__color" data-color-index="1" style="background: #d0d0d0;"></span>
+                <span class="card__color" data-color-index="2" style="background: #a9a9a9;"></span>
+              </div>
+
+              <ul class="card__features">
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>Выгода по госпрограмме</span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>Максимальные выгоды по трейд‑ин</span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>КАСКО в подарок</span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>Зимние шины в подарок</span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>Допоборудование на 100 000р в подарок</span>
+                </li>
+              </ul>
+
+              <div class="card__actions">
+                <a class="button button--accent button--block" data-fancybox href="#popup-form">Узнать стоимость</a>
+                <a class="button button--black button--block" data-fancybox href="#popup-form">Рассчитать кредит</a>
+                <a class="button button--outline button--block" data-fancybox href="#popup-form">Подобрать комплектацию</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card__header">
+                <span class="card__badge">В наличии</span>
+              </div>
+
+              <h2 class="card__title">Haval Dargo X</h2>
+              <p class="card__price">Выгода до <strong>320&nbsp;000 ₽</strong></p>
+
+              <div class="card__image-wrapper">
+                <div class="swiper card__swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/Терракотовый.png" alt="Haval Dargo X"></div>
+                    <div class="swiper-slide"><img src="images/Графитовый-кварц.png" alt="Haval Dargo X"></div>
+                    <div class="swiper-slide"><img src="images/Черный-нефрит.png" alt="Haval Dargo X"></div>
+                  </div>
+                </div>
+                <div class="card__side-note">
+                  <img src="images/tel.svg" alt="" class="card__side-icon">
+                  <span>Записаться<br>на тест-драйв</span>
+                </div>
+              </div>
+
+              <div class="card__colors">
+                <span class="card__color" data-color-index="0" style="background: #a9a9a9;"></span>
+                <span class="card__color card__color--active" data-color-index="1" style="background: #000000;"></span>
+                <span class="card__color" data-color-index="2" style="background: #8b4513;"></span>
+              </div>
+
+              <ul class="card__features">
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>Выгода по госпрограмме</span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>Максимальные выгоды по трейд‑ин</span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>КАСКО в подарок</span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>Зимние шины в подарок</span>
+                </li>
+                <li class="card__feature">
+                  <span class="card__feature-icon">✓</span>
+                  <span>Допоборудование на 100 000р в подарок</span>
+                </li>
+              </ul>
+
+              <div class="card__actions">
+                <a class="button button--accent button--block" data-fancybox href="#popup-form">Узнать стоимость</a>
+                <a class="button button--black button--block" data-fancybox href="#popup-form">Рассчитать кредит</a>
+                <a class="button button--outline button--block" data-fancybox href="#popup-form">Подобрать комплектацию</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="footer__note">Haval — официальный дилер. Все предложения действительны до окончания акции.</span>
+        <a class="footer__link" href="tel:+74957559990">+7 (495) 755 99 90</a>
+      </div>
+    </footer>
+  </div>
+
+  <div style="display:none;">
+    <div id="popup-form" class="modal">
+      <h2 class="modal__title">Оставьте заявку</h2>
+      <form class="modal__form">
+        <label class="modal__field">
+          <span>Телефон</span>
+          <input class="modal__input" type="tel" name="phone" placeholder="+7 (900) 000-00-00" required>
+        </label>
+        <button class="button button--accent modal__submit" type="submit">Отправить</button>
+      </form>
+      <p class="modal__note">Мы свяжемся с вами в ближайшее время для подтверждения заявки.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    // Swiper initialization with clickable color dots
+    document.querySelectorAll('.card').forEach(function(card) {
+      const slider = card.querySelector('.card__swiper');
+      if (!slider) {
+        return;
+      }
+
+      const swiper = new Swiper(slider, {
+        loop: true,
+      });
+
+      const dots = card.querySelectorAll('.card__color');
+      dots.forEach(function(dot) {
+        dot.style.cursor = 'pointer';
+        dot.addEventListener('click', function() {
+          const index = Number(dot.dataset.colorIndex);
+          if (!Number.isNaN(index)) {
+            swiper.slideToLoop(index, 400);
+            dots.forEach(function(other) {
+              other.classList.remove('card__color--active');
+            });
+            dot.classList.add('card__color--active');
+          }
+        });
+      });
+    });
+
+    // Timer with SVG progress circles
+    function updateTimer() {
+      const now = new Date();
+      const endDate = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 8);
+      endDate.setHours(23, 59, 59, 999);
+
+      const totalTime = endDate - now;
+      
+      const days = Math.floor(totalTime / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((totalTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((totalTime % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((totalTime % (1000 * 60)) / 1000);
+
+      // Update numbers
+      document.querySelector('[data-timer="days"]').textContent = String(days).padStart(2, '0');
+      document.querySelector('[data-timer="hours"]').textContent = String(hours).padStart(2, '0');
+      document.querySelector('[data-timer="minutes"]').textContent = String(minutes).padStart(2, '0');
+      document.querySelector('[data-timer="seconds"]').textContent = String(seconds).padStart(2, '0');
+
+      // Update progress circles
+      const circumference = 283;
+      
+      // Days: max 10 days
+      const daysProgress = Math.max(0, Math.min(1, days / 10));
+      const daysDashOffset = circumference * (1 - daysProgress);
+      document.querySelector('[data-type="days"]').style.strokeDashoffset = daysDashOffset;
+
+      // Hours: max 24
+      const hoursProgress = Math.max(0, Math.min(1, hours / 24));
+      const hoursDashOffset = circumference * (1 - hoursProgress);
+      document.querySelector('[data-type="hours"]').style.strokeDashoffset = hoursDashOffset;
+
+      // Minutes: max 60
+      const minutesProgress = Math.max(0, Math.min(1, minutes / 60));
+      const minutesDashOffset = circumference * (1 - minutesProgress);
+      document.querySelector('[data-type="minutes"]').style.strokeDashoffset = minutesDashOffset;
+
+      // Seconds: max 60
+      const secondsProgress = Math.max(0, Math.min(1, seconds / 60));
+      const secondsDashOffset = circumference * (1 - secondsProgress);
+      document.querySelector('[data-type="seconds"]').style.strokeDashoffset = secondsDashOffset;
+    }
+
+    // Update timer immediately and then every second
+    updateTimer();
+    setInterval(updateTimer, 1000);
+  </script>
+</body>
+</html>
